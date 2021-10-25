@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react'
+import ReactDOM from 'react-dom'
 import "./App.css";
 import Quote from "./Quote/Quote";
 import Todos from "./Todo/Todos";
