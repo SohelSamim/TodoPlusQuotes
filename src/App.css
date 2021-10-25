@@ -1,0 +1,26 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Acme", sans-serif;
+
+  background: #161415
+    url(https://i.pinimg.com/564x/10/1e/f6/101ef6a9e146b23de28fa2cd568ad17b.jpg)
+    top center repeat;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  overflow-y: scroll;
+}
+
+.app::-webkit-scrollbar {
+  display: none;
+}
+
+.app {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
